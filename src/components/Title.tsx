@@ -1,11 +1,12 @@
 type Props = {
-    children: string | JSX.Element | JSX.Element[] 
+    children: string | JSX.Element | JSX.Element[]
+    color: string
 }
 
-const Title = ({children} :Props) => {
+const Title = ({children, color}: Props) => {
   return (
     <>
-      <h1 className="text-3xl font-protest-revolution text-wrap sm:text-4xl md:text-7xl text-center">{children}</h1>
+      <h1 className={`text-3xl font-protest-revolution text-wrap sm:text-4xl md:text-7xl text-center text-${color}`}>{children}</h1>
     </>
   );
 };

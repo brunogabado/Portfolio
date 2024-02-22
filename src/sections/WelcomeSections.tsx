@@ -3,27 +3,27 @@ import Title from "../components/Title";
 const WelcomeSection = () => {
   return (
     <>
-      <div className="flex flex-col p-[25px] mt-9">
+      <div className="flex flex-col p-[25px] mt-9 ">
         <div>
           <div className="flex sm:pl-[15%] ">
-            <Title>Hi i'm Bruno,</Title>
+            <Title color="black">Hi i'm Bruno,</Title>
           </div>
           <div className="flex justify-center">
-            <Title>a Junior Frontend Developer</Title>
+            <Title color="black">a Junior Frontend Developer</Title>
           </div>
         </div>
 
         <div className="md:mt-11 w-[100%] flex flex-col gap-9 justify-around items-center py-[30px] sm:p-[30px] md:flex-row">
           <div className="max-w-[600px]">
             <h6 className="text-xl sm:text-2xl md:text-4xl font-indie-flower">
-              I am a frontend developer recently gradudated by the <a href="https://www.eddisrupt.com/pt">Eddisrupt</a> bootcamp. With a several
+              I am a frontend developer recently gradudated by the <a className="underline hover:text-gray-500" href="https://www.eddisrupt.com/pt">Eddisrupt</a> bootcamp. With a several
               skills adquired during the last 2 years of estudies. Now waiting for a change to change my carrer
             </h6>
           </div>
 
           <div className="flex flex-col gap-2 sm:gap-4">
             <div className="flex justify-center gap-6">
-              <a href="https://www.linkedin.com/in/brunogabado/">
+              <a className="hover:scale-125" href="https://www.linkedin.com/in/brunogabado/">
                 <svg width="40px" height="40px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none">
                   <path
                     fill="#0A66C2"
@@ -31,7 +31,7 @@ const WelcomeSection = () => {
                   />
                 </svg>
               </a>
-              <a href="https://github.com/brunogabado">
+              <a className="hover:scale-125" href="https://github.com/brunogabado">
                 <svg
                   width="35px"
                   height="35px"
@@ -60,6 +60,7 @@ const WelcomeSection = () => {
           </div>
         </div>
       </div>
+
     </>
   );
 };
