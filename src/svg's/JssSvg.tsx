@@ -2,16 +2,16 @@ const JssSvg = () => {
   return (
     <>
       <svg
-        width="40px"
-        height="40px"
+        width="70px"
+        height="70px"
         viewBox="0 -26.5 256 256"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
       >
         <title>Group</title>
-        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-          <g fill-rule="nonzero">
+        <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+          <g fillRule="nonzero">
             <polygon fill="#F7DF1E" points="1.85263158 1.83333333 202.947368 1.83333333 202.947368 200.833333 1.85263158 200.833333"></polygon>
             <path
               d="M204.8,202.666667 L0,202.666667 L0,0 L204.8,0 L204.8,202.666667 Z M3.8464,198.837333 L200.951467,198.837333 L200.951467,3.82933333 L3.8464,3.82933333 L3.8464,198.837333 Z"
@@ -28,5 +28,4 @@ const JssSvg = () => {
   );
 };
 
-
-export default JssSvg
+export default JssSvg;
