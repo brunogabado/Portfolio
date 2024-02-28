@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import AboutSection from "./sections/AboutSection";
 import ContactSection from "./sections/ContactSection";
@@ -14,6 +15,7 @@ function App() {
       <SkillsSection />
       <ProjectsSection />
       <ContactSection />
+      <Footer />
     </>
   );
 }
