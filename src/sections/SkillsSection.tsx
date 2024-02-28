@@ -55,7 +55,7 @@ const SkillsSection = () => {
       </svg>
       <div className="flex flex-col my-9 justify-center">
         <Title color="black">Skills</Title>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-12 justify-items-center items-center gap-11 p-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-12 justify-items-center items-center gap-12 p-12 lg:px-[150px]">
           {Object.keys(skillsObj).map((skill: string, index) => (
             <SkillCard
               key={index}

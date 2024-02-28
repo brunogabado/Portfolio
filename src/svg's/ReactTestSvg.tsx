@@ -12,13 +12,13 @@ const ReactTestSvg = () => {
             fy="49.847%"
             gradientTransform="matrix(1 0 0 .99252 0 .004)"
           >
-            <stop offset="0%" stop-color="#e33332" />
-            <stop offset="20%" stop-color="#e03330" />
-            <stop offset="38%" stop-color="#d52e2c" />
-            <stop offset="54%" stop-color="#c32827" />
-            <stop offset="71%" stop-color="#a91f23" />
-            <stop offset="86%" stop-color="#89181a" />
-            <stop offset="100%" stop-color="#640e0e" />
+            <stop offset="0%" stopColor="#e33332" />
+            <stop offset="20%" stopColor="#e03330" />
+            <stop offset="38%" stopColor="#d52e2c" />
+            <stop offset="54%" stopColor="#c32827" />
+            <stop offset="71%" stopColor="#a91f23" />
+            <stop offset="86%" stopColor="#89181a" />
+            <stop offset="100%" stopColor="#640e0e" />
           </radialGradient>
           <radialGradient
             id="logosTestingLibrary1"
@@ -29,13 +29,13 @@ const ReactTestSvg = () => {
             fy="49.585%"
             gradientTransform="matrix(1 0 0 .41938 0 .288)"
           >
-            <stop offset="0%" stop-color="#f7b3c5" />
-            <stop offset="19%" stop-color="#f7b0c2" />
-            <stop offset="38%" stop-color="#f6a4b6" />
-            <stop offset="58%" stop-color="#f390a5" />
-            <stop offset="79%" stop-color="#e7728b" />
-            <stop offset="99%" stop-color="#dc4d6c" />
-            <stop offset="100%" stop-color="#da4b6a" />
+            <stop offset="0%" stopColor="#f7b3c5" />
+            <stop offset="19%" stopColor="#f7b0c2" />
+            <stop offset="38%" stopColor="#f6a4b6" />
+            <stop offset="58%" stopColor="#f390a5" />
+            <stop offset="79%" stopColor="#e7728b" />
+            <stop offset="99%" stopColor="#dc4d6c" />
+            <stop offset="100%" stopColor="#da4b6a" />
           </radialGradient>
           <radialGradient
             id="logosTestingLibrary2"
@@ -46,13 +46,13 @@ const ReactTestSvg = () => {
             fy="49.742%"
             gradientTransform="matrix(.81559 0 0 1 .093 0)"
           >
-            <stop offset="0%" stop-color="#f7b3c5" />
-            <stop offset="19%" stop-color="#f7b0c2" />
-            <stop offset="38%" stop-color="#f6a4b6" />
-            <stop offset="58%" stop-color="#f390a5" />
-            <stop offset="79%" stop-color="#e7728b" />
-            <stop offset="99%" stop-color="#dc4d6c" />
-            <stop offset="100%" stop-color="#da4b6a" />
+            <stop offset="0%" stopColor="#f7b3c5" />
+            <stop offset="19%" stopColor="#f7b0c2" />
+            <stop offset="38%" stopColor="#f6a4b6" />
+            <stop offset="58%" stopColor="#f390a5" />
+            <stop offset="79%" stopColor="#e7728b" />
+            <stop offset="99%" stopColor="#dc4d6c" />
+            <stop offset="100%" stopColor="#da4b6a" />
           </radialGradient>
           <radialGradient
             id="logosTestingLibrary3"
@@ -63,49 +63,49 @@ const ReactTestSvg = () => {
             fy="49.582%"
             gradientTransform="matrix(1 0 0 .41925 0 .288)"
           >
-            <stop offset="0%" stop-color="#f7b3c5" />
-            <stop offset="19%" stop-color="#f7b0c2" />
-            <stop offset="38%" stop-color="#f6a4b6" />
-            <stop offset="58%" stop-color="#f390a5" />
-            <stop offset="79%" stop-color="#e7728b" />
-            <stop offset="99%" stop-color="#dc4d6c" />
-            <stop offset="100%" stop-color="#da4b6a" />
+            <stop offset="0%" stopColor="#f7b3c5" />
+            <stop offset="19%" stopColor="#f7b0c2" />
+            <stop offset="38%" stopColor="#f6a4b6" />
+            <stop offset="58%" stopColor="#f390a5" />
+            <stop offset="79%" stopColor="#e7728b" />
+            <stop offset="99%" stopColor="#dc4d6c" />
+            <stop offset="100%" stopColor="#da4b6a" />
           </radialGradient>
           <linearGradient id="logosTestingLibrary4" x1=".003%" x2="100%" y1="49.969%" y2="49.969%">
-            <stop offset="0%" stop-color="#f7b3c5" />
-            <stop offset="19%" stop-color="#f7b0c2" />
-            <stop offset="38%" stop-color="#f6a4b6" />
-            <stop offset="58%" stop-color="#f390a5" />
-            <stop offset="79%" stop-color="#e7728b" />
-            <stop offset="99%" stop-color="#dc4d6c" />
-            <stop offset="100%" stop-color="#da4b6a" />
+            <stop offset="0%" stopColor="#f7b3c5" />
+            <stop offset="19%" stopColor="#f7b0c2" />
+            <stop offset="38%" stopColor="#f6a4b6" />
+            <stop offset="58%" stopColor="#f390a5" />
+            <stop offset="79%" stopColor="#e7728b" />
+            <stop offset="99%" stopColor="#dc4d6c" />
+            <stop offset="100%" stopColor="#da4b6a" />
           </linearGradient>
           <linearGradient id="logosTestingLibrary5" x1=".025%" x2="100.015%" y1="26.463%" y2="26.463%">
-            <stop offset="0%" stop-color="#f7b3c5" />
-            <stop offset="19%" stop-color="#f7b0c2" />
-            <stop offset="38%" stop-color="#f6a4b6" />
-            <stop offset="58%" stop-color="#f390a5" />
-            <stop offset="79%" stop-color="#e7728b" />
-            <stop offset="99%" stop-color="#dc4d6c" />
-            <stop offset="100%" stop-color="#da4b6a" />
+            <stop offset="0%" stopColor="#f7b3c5" />
+            <stop offset="19%" stopColor="#f7b0c2" />
+            <stop offset="38%" stopColor="#f6a4b6" />
+            <stop offset="58%" stopColor="#f390a5" />
+            <stop offset="79%" stopColor="#e7728b" />
+            <stop offset="99%" stopColor="#dc4d6c" />
+            <stop offset="100%" stopColor="#da4b6a" />
           </linearGradient>
           <linearGradient id="logosTestingLibrary6" x1="0%" x2="99.996%" y1="49.997%" y2="49.997%">
-            <stop offset="0%" stop-color="#da4b6a" />
-            <stop offset="1%" stop-color="#dc4d6c" />
-            <stop offset="21%" stop-color="#e7728b" />
-            <stop offset="42%" stop-color="#f390a5" />
-            <stop offset="62%" stop-color="#f6a4b6" />
-            <stop offset="81%" stop-color="#f7b0c2" />
-            <stop offset="100%" stop-color="#f7b3c5" />
+            <stop offset="0%" stopColor="#da4b6a" />
+            <stop offset="1%" stopColor="#dc4d6c" />
+            <stop offset="21%" stopColor="#e7728b" />
+            <stop offset="42%" stopColor="#f390a5" />
+            <stop offset="62%" stopColor="#f6a4b6" />
+            <stop offset="81%" stopColor="#f7b0c2" />
+            <stop offset="100%" stopColor="#f7b3c5" />
           </linearGradient>
           <linearGradient id="logosTestingLibrary7" x1="-.004%" x2="99.975%" y1="26.478%" y2="26.478%">
-            <stop offset="0%" stop-color="#da4b6a" />
-            <stop offset="1%" stop-color="#dc4d6c" />
-            <stop offset="21%" stop-color="#e7728b" />
-            <stop offset="42%" stop-color="#f390a5" />
-            <stop offset="62%" stop-color="#f6a4b6" />
-            <stop offset="81%" stop-color="#f7b0c2" />
-            <stop offset="100%" stop-color="#f7b3c5" />
+            <stop offset="0%" stopColor="#da4b6a" />
+            <stop offset="1%" stopColor="#dc4d6c" />
+            <stop offset="21%" stopColor="#e7728b" />
+            <stop offset="42%" stopColor="#f390a5" />
+            <stop offset="62%" stopColor="#f6a4b6" />
+            <stop offset="81%" stopColor="#f7b0c2" />
+            <stop offset="100%" stopColor="#f7b3c5" />
           </linearGradient>
         </defs>
         <path
