@@ -1,8 +1,17 @@
+import { scroller } from "react-scroll";
 import Title from "../components/Title";
 import GithubSvg from "../svg's/GithubSvg";
 import LinkedinSvg from "../svg's/LinkedinSvg";
 
 const WelcomeSection = () => {
+  const scrollToContact = () => {
+    scroller.scrollTo("Contact", {
+      duration: 800,
+      delay: 0,
+      smooth: true,
+    });
+  };
+
   return (
     <>
       <div className="flex flex-col p-[25px] mt-9 ">
@@ -35,7 +44,10 @@ const WelcomeSection = () => {
                 <GithubSvg />
               </a>
             </div>
-            <button className="w-[200px] border-2 border-black rounded-2xl p-[15px] bg-black text-white transition delay-150 duration-300 ease-in-out hover:bg-white hover:text-black hover:scale-125 transition font-anta">
+            <button
+              onClick={scrollToContact}
+              className="w-[200px] border-2 border-black rounded-2xl p-[15px] bg-black text-white transition delay-150 duration-300 ease-in-out hover:bg-white hover:text-black hover:scale-125 transition font-anta"
+            >
               Get in Touch
             </button>
           </div>

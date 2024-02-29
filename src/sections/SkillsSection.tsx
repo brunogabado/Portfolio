@@ -53,7 +53,7 @@ const SkillsSection = () => {
       <svg viewBox="0 0 1000 150" preserveAspectRatio="none" width="100%" height="100">
         <path fill="black" d="M0 70c166.5 29.5 333-59 500 0s333 59 500 0V0H0z" />
       </svg>
-      <div className="flex flex-col my-9 justify-center">
+      <div id="Skills" className="flex flex-col my-9 justify-center">
         <Title color="black">Skills</Title>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-12 justify-items-center items-center gap-12 p-12 lg:px-[150px]">
           {Object.keys(skillsObj).map((skill: string, index) => (

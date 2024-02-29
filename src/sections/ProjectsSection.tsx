@@ -31,7 +31,7 @@ const ProjectsSection = () => {
       <svg viewBox="0 0 1000 100" preserveAspectRatio="none" width="100%" height="100">
         <path fill="black" d="M0 70c166.5-29.5 333 59 500 0s333-59 500 0V100H0z" />
       </svg>
-      <div className="flex flex-col items-center bg-black pt-12">
+      <div id="Projects" className="flex flex-col items-center bg-black pt-12">
         <Title color="white">Projects</Title>
         <Carousel projects={projects} />
       </div>
