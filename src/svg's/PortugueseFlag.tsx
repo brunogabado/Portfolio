@@ -2,14 +2,13 @@ const PortugueseFlag = () => {
   return (
     <>
       <svg
-        width="30px"
-        height="30px"
+
         viewBox="0 0 64 64"
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
         aria-hidden="true"
         role="img"
-        className="iconify iconify--emojione"
+        className="iconify iconify--emojione h-[20px] w-[20px] md:h-[30px] sm:w-[30px]"
         preserveAspectRatio="xMidYMid meet"
       >
         <path d="M17 58V6C8 11.2 2 20.9 2 32s6 20.8 15 26z" fill="#699635"></path>

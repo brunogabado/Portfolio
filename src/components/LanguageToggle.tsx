@@ -17,15 +17,15 @@ const LanguageToggle = () => {
 
   return (
     <>
-      <div className="border-2 self-end rounded-3xl">
-        <label className=" self-end themeSwitcherTwo shadow-card relative inline-flex cursor-pointer rounded-full select-none items-center justify-center bg-white">
+      <div className="border-2 self-end rounded-full">
+        <label className="flex items-center themeSwitcherTwo shadow-card relative cursor-pointer rounded-full select-none items-center justify-center bg-white">
           <input type="checkbox" className="sr-only" checked={isChecked} onChange={handleToggleChange} />
-          <span className={`flex items-center rounded-full p-2 text-sm font-medium ${!isChecked ? "text-primary bg-[#dfe5f7]" : "text-body-color"}`}>
+          <span className={`flex items-center rounded-full p-2 sm:p-1 text-sm font-medium ${!isChecked ? "text-primary bg-[#dfe5f7]" : "text-body-color"}`}>
             <PortugueseFlag />
           </span>
 
           <span
-            className={`flex items-center space-x-[6px] rounded-full p-2 text-sm font-medium ${
+            className={`flex items-center space-x-[6px] rounded-full p-2 sm:p-1 text-sm font-medium ${
               isChecked ? "text-primary bg-[#dfe5f7]" : "text-body-color"
             }`}
           >
