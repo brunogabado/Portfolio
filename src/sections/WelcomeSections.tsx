@@ -2,6 +2,7 @@ import { scroller } from "react-scroll";
 import Title from "../components/Title";
 import GithubSvg from "../svg's/GithubSvg";
 import LinkedinSvg from "../svg's/LinkedinSvg";
+import LanguageToggle from "../components/LanguageToggle";
 
 const WelcomeSection = () => {
   const scrollToContact = () => {
@@ -15,6 +16,8 @@ const WelcomeSection = () => {
   return (
     <>
       <div className="flex flex-col p-[25px] mt-9 ">
+        <LanguageToggle />
+
         <div>
           <div className="flex sm:pl-[15%] ">
             <Title color="black">Hi i'm Bruno,</Title>
