@@ -44,9 +44,6 @@ const skillsObj: skills = {
   reactTesting: { name: "React Testing Library", rate: 6, svg: <ReactTestSvg /> }
 };
 
-console.log(skillsObj);
-console.log(Object.keys(skillsObj));
-
 const SkillsSection = () => {
   return (
     <>
