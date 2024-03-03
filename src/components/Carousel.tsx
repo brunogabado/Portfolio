@@ -2,9 +2,13 @@ import { useState } from "react";
 import { projectProps } from "../sections/ProjectsSection";
 import WebSvg from "../svg's/WebSvg";
 import GithubIcon from "../svg's/GithubIconSvg";
+import { useSelector } from "react-redux";
+import { RootState } from "../state/store";
+
 
 const Carousel = ({ projects }: { projects: projectProps[] }) => {
   const [index, setIndex] = useState<number>(1);
+  const language = useSelector((state:RootState) => state.language.language)
 
   const nextSlide = () => {
     let newIndex: number = index + 1 > projects.length - 1 ? 0 : index + 1;
@@ -33,17 +37,17 @@ const Carousel = ({ projects }: { projects: projectProps[] }) => {
         </div>
         <div className="flex justify-center flex rounded-b-lg justify-around items-center border-2 border-t-0 h-12 bg-black">
           <a
-            className="flex text-white font-anta items-center transition delay-150 duration-300 ease-in-out hover:scale-125"
+            className="flex text-white text-sm sm:text-lg font-anta items-center transition delay-150 duration-300 ease-in-out hover:scale-125"
             href={projects[index].liveLink}
           >
-            <WebSvg /> Live App
+            <WebSvg />{language === "english" ? "Live App" : "App em Produção"}
           </a>
 
           <a
-            className="flex text-white font-anta items-center transition delay-150 duration-300 ease-in-out hover:scale-125"
+            className="flex text-white text-sm sm:text-lg font-anta items-center transition delay-150 duration-300 ease-in-out hover:scale-125"
             href={projects[index].githubLink}
           >
-            <GithubIcon /> Repository
+            <GithubIcon />{language === "english" ? "Repository" : "Repositório"}
           </a>
         </div>
       </div>

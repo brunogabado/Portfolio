@@ -1,5 +1,7 @@
+import { useSelector } from "react-redux";
 import Carousel from "../components/Carousel";
 import Title from "../components/Title";
+import { RootState } from "../state/store";
 
 export type projectProps = {
   name: string;
@@ -26,13 +28,16 @@ const projects: projectProps[] = [
 ];
 
 const ProjectsSection = () => {
+
+const language = useSelector((state: RootState) => state.language.language)
+
   return (
     <>
       <svg viewBox="0 0 1000 100" preserveAspectRatio="none" width="100%" height="100">
         <path fill="black" d="M0 70c166.5-29.5 333 59 500 0s333-59 500 0V100H0z" />
       </svg>
       <div id="Projects" className="flex flex-col items-center bg-black pt-12">
-        <Title color="white">Projects</Title>
+        <Title color="white">{language === "english" ? "Projects" : "Projetos"}</Title>
         <Carousel projects={projects} />
       </div>
       <svg viewBox="0 0 1000 100" preserveAspectRatio="none" width="100%" height="100" style={{ transform: "rotate(180deg)" }}>

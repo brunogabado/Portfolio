@@ -24,10 +24,10 @@ const WelcomeSection = () => {
 
         <div>
           <div className="flex sm:pl-[15%] ">
-            <Title color="black">{language === "portuguese" ? "Hi, i'm Bruno," : "Olá, sou o Bruno,"}</Title>
+            <Title color="black">{language === "english" ? "Hi, i'm Bruno," : "Olá, sou o Bruno,"}</Title>
           </div>
           <div className="flex justify-center">
-            <Title color="black">{language === "portuguese" ? "a Junior Frontend Developer" : "um Junior Frontend Developer"}</Title>
+            <Title color="black">{language === "english" ? "a Junior Frontend Developer" : "um Junior Frontend Developer"}</Title>
           </div>
         </div>
 
@@ -36,16 +36,16 @@ const WelcomeSection = () => {
             <h6 className="text-xl sm:text-2xl md:text-4xl font-indie-flower">
               {language === "english" ? (
                 <>
-                  I am a frontend developer recently graduated from the{" "}
+                  I am a frontend developer who recently graduated from the{" "}
                   <a className="underline hover:text-gray-500" href="https://www.eddisrupt.com/pt">
                     Eddisrupt
-                  </a>
-                  {" "}bootcamp. With several skills acquired during the last 2 years of studies. Now waiting for a chance to change my career.
+                  </a>{" "}
+                  bootcamp. With several skills acquired during the last 2 years of studies. Now waiting for a chance to change my career.
                 </>
               ) : (
                 <>
                   <>
-                    Sou um frontend developer recentemento graduado pelo bootcamp da{" "}
+                    Sou um frontend developer recentemente graduado pelo bootcamp da{" "}
                     <a className="underline hover:text-gray-500" href="https://www.eddisrupt.com/pt">
                       Eddisrupt
                     </a>

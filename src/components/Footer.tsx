@@ -1,13 +1,18 @@
+import { useSelector } from "react-redux";
 import EmailIcon from "../svg's/EmailIcon";
 import GithubFooterLink from "../svg's/GithubFooter";
 import LinkedInFooterLink from "../svg's/LinkedinFooter";
+import { RootState } from "../state/store";
 
 const Footer = () => {
+
+  const language = useSelector((state: RootState) => state.language.language)
+
   return (
     <>
       <div className="flex sm:justify-around items-center bg-black text-white p-5 justify-between">
         <div>
-          <p className="font-anta text-xs sm:text-sm">Personal Portfolio</p>
+          <p className="font-anta text-xs sm:text-sm">{language === "english" ? "Personal Portfolio" : "Portfolio Pessoal"}</p>
           <p className="font-anta text-xs sm:text-sm">2024</p>
         </div>
         <div className="flex flex-col md:flex-row items-center justify-center md:gap-9">

@@ -1,9 +1,13 @@
+import { useSelector } from "react-redux";
 import Title from "../components/Title";
+import { RootState } from "../state/store";
 
 const ContactSection = () => {
+  const language = useSelector((state: RootState) => state.language.language);
+
   return (
     <>
-      <Title color="black">Contact Me</Title>
+      <Title color="black">{language === "english" ? "Contact Me" : "Contacta-me"}</Title>
       <div id="Contact" className="flex justify-center gap-5 my-12">
         <form className="flex flex-col gap-5 items-center" action="https://formsubmit.co/8344bd3e4d2c047a3052ac8014343f62" method="POST">
           <div className="flex flex-col gap-5 lg:flex-row">
@@ -13,7 +17,7 @@ const ContactSection = () => {
           </div>
           <textarea name="message" id="" placeholder="Your Message" className="w-[100%] h-[120px] border-2 p-4 rounded-xl" required></textarea>
           <button className="w-[200px] border-2 border-black rounded-2xl p-[15px] bg-black text-white transition delay-150 duration-300 ease-in-out hover:bg-white hover:text-black hover:scale-125 transition font-anta">
-            Send
+            {language === "english" ? "Send" : "Enviar"}
           </button>
         </form>
       </div>
